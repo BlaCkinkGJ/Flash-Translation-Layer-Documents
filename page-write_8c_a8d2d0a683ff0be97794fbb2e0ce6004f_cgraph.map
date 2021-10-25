@@ -1,0 +1,13 @@
+<map id="page_ftl_write_end_rq" name="page_ftl_write_end_rq">
+<area shape="rect" id="node2" href="$page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="417,107,534,133"/>
+<area shape="rect" id="node4" href="$page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="211,56,341,83"/>
+<area shape="rect" id="node7" href="$page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="203,157,349,184"/>
+<area shape="rect" id="node3" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="805,157,956,184"/>
+<area shape="rect" id="node5" href="$bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="445,56,506,83"/>
+<area shape="rect" id="node6" href="$bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="445,5,506,32"/>
+<area shape="rect" id="node8" href="$page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="397,157,553,184"/>
+<area shape="rect" id="node9" href="$device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="601,208,749,235"/>
+<area shape="rect" id="node10" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="797,208,964,235"/>
+<area shape="rect" id="node11" href="$device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="805,259,957,301"/>
+<area shape="rect" id="node12" href="$device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="1012,259,1167,301"/>
+</map>

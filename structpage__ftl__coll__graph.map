@@ -1,0 +1,9 @@
+<map id="page_ftl" name="page_ftl">
+<area shape="rect" id="node2" href="$structpage__ftl__segment.html" title="segment information structure " alt="" coords="5,624,131,745"/>
+<area shape="rect" id="node3" href="$structdevice.html" title="metadata of the device " alt="" coords="155,624,293,745"/>
+<area shape="rect" id="node4" href="$structdevice__info.html" title="flash board&#39;s architecture information " alt="" coords="97,447,185,539"/>
+<area shape="rect" id="node5" href="$structdevice__package.html" title="flash board&#39;s package(nand chip) information " alt="" coords="83,285,199,363"/>
+<area shape="rect" id="node6" href="$structdevice__block.html" title="flash board&#39;s block information " alt="" coords="92,145,191,223"/>
+<area shape="rect" id="node7" href="$structdevice__page.html" title="flash board&#39;s page information " alt="" coords="94,5,189,83"/>
+<area shape="rect" id="node8" href="$structdevice__operations.html" title="operations for device " alt="" coords="210,425,337,561"/>
+</map>

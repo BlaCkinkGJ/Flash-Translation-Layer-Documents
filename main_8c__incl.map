@@ -1,0 +1,7 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="node8" href="$module_8h.html" title="creation and deletion of the module&#39;s interface " alt="" coords="460,80,580,107"/>
+<area shape="rect" id="node10" href="$flash_8h.html" title="generic flash control interfaces&#39; header " alt="" coords="488,155,549,181"/>
+<area shape="rect" id="node13" href="$page_8h.html" title="declaration of data structures and macros for page ftl " alt="" coords="655,80,761,107"/>
+<area shape="rect" id="node16" href="$device_8h.html" title="contain the device information header " alt="" coords="763,155,834,181"/>
+<area shape="rect" id="node17" href="$log_8h.html" title="include/log.h" alt="" coords="858,229,953,256"/>
+</map>

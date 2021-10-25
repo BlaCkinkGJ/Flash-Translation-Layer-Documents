@@ -1,0 +1,6 @@
+<map id="page_ftl_module_exit" name="page_ftl_module_exit">
+<area shape="rect" id="node2" href="$page-core_8c.html#abd22f5acb8a0cede652c46ee5229e504" title="deallocate the page ftl structure&#39;s members " alt="" coords="214,5,321,32"/>
+<area shape="rect" id="node5" href="$device_8c.html#adeffd903e3a445dbbd1305b6cfc9b54f" title="deallocate the device module " alt="" coords="199,56,336,83"/>
+<area shape="rect" id="node3" href="$page-core_8c.html#a60e6f0f95185fdb010a5bacb80ed30d0" title="deallocate the ftl&#39;s segments " alt="" coords="384,5,545,32"/>
+<area shape="rect" id="node4" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="593,5,760,32"/>
+</map>

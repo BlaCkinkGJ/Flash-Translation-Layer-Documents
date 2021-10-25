@@ -1,0 +1,5 @@
+<map id="lru_do_evict" name="lru_do_evict">
+<area shape="rect" id="node2" href="$lru_8c.html#a49db671469c533a5bf3b56907b4d9d43" title="implementation of the LRU eviction function " alt="" coords="145,31,252,57"/>
+<area shape="rect" id="node3" href="$lru_8c.html#abf132c3fe4ee26430219935e76308f4b" title="delete the node from the list " alt="" coords="303,5,416,32"/>
+<area shape="rect" id="node4" href="$lru_8c.html#a2f0d978ba5f4a41691b5a06f7969e28f" title="deallcate the allocated node " alt="" coords="300,56,419,83"/>
+</map>

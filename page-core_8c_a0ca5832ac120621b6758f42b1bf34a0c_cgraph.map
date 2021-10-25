@@ -1,0 +1,7 @@
+<map id="page_ftl_init_segment" name="page_ftl_init_segment">
+<area shape="rect" id="node2" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="210,5,377,32"/>
+<area shape="rect" id="node3" href="$page-core_8c.html#aa74b6b9f6773b961bf1bb7d675870073" title="allocate the segment&#39;s bitmap " alt="" coords="219,56,367,83"/>
+<area shape="rect" id="node4" href="$device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="432,99,584,141"/>
+<area shape="rect" id="node6" href="$page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="203,157,384,184"/>
+<area shape="rect" id="node5" href="$device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="632,99,787,141"/>
+</map>

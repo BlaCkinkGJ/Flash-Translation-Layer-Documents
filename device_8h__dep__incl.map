@@ -1,0 +1,20 @@
+<map id="include/device.h" name="include/device.h">
+<area shape="rect" id="node2" href="$bluedbm_8h.html" title="bluedbm module&#39;s header file " alt="" coords="53,80,180,107"/>
+<area shape="rect" id="node3" href="$bluedbm_8c.html" title="implementation of the bluedbm abstraction layer which is inherited by the device " alt="" coords="5,155,183,181"/>
+<area shape="rect" id="node4" href="$device_8c.html" title="implementation of the device " alt="" coords="207,155,320,181"/>
+<area shape="rect" id="node5" href="$ramdisk_8h.html" title="ramdisk&#39;s header file " alt="" coords="496,80,620,107"/>
+<area shape="rect" id="node6" href="$ramdisk_8c.html" title="implementation of the ramdisk which is inherited by the device " alt="" coords="345,155,515,181"/>
+<area shape="rect" id="node7" href="$ramdisk-test_8c.html" title="test/ramdisk&#45;test.c" alt="" coords="539,155,670,181"/>
+<area shape="rect" id="node8" href="$zone_8h.html" title="zbd&#39;s header file " alt="" coords="782,80,889,107"/>
+<area shape="rect" id="node9" href="$zone_8c.html" title="implementation of the lizbd which is inherited by the device " alt="" coords="695,155,829,181"/>
+<area shape="rect" id="node10" href="$zone-test_8c.html" title="test/zone&#45;test.c" alt="" coords="853,155,967,181"/>
+<area shape="rect" id="node11" href="$page-core_8c.html" title="core logic for page ftl " alt="" coords="991,155,1128,181"/>
+<area shape="rect" id="node12" href="$page_8h.html" title="declaration of data structures and macros for page ftl " alt="" coords="1511,80,1618,107"/>
+<area shape="rect" id="node14" href="$page-interface_8c.html" title="interface for page ftl " alt="" coords="1153,155,1315,181"/>
+<area shape="rect" id="node15" href="$page-map_8c.html" title="manage the mapping information " alt="" coords="1340,155,1477,181"/>
+<area shape="rect" id="node17" href="$page-write_8c.html" title="write logic for page ftl " alt="" coords="1967,155,2107,181"/>
+<area shape="rect" id="node19" href="$main_8c.html" title="main program for test the interface " alt="" coords="2131,155,2193,181"/>
+<area shape="rect" id="node13" href="$page-gc_8c.html" title="garbage collection logic for page ftl " alt="" coords="1501,155,1628,181"/>
+<area shape="rect" id="node16" href="$page-read_8c.html" title="read logic for page ftl " alt="" coords="1652,155,1789,181"/>
+<area shape="rect" id="node18" href="$module_8c.html" title="this deal the initialization and removing of the module " alt="" coords="1813,155,1943,181"/>
+</map>

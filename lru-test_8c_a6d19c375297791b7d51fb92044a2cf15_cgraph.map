@@ -1,0 +1,5 @@
+<map id="test_lru_init" name="test_lru_init">
+<area shape="rect" id="node2" href="$lru_8h.html#a726b61785db27fec59104ee135fd2cfa" title="initialize the LRU cache data strcture " alt="" coords="145,5,205,32"/>
+<area shape="rect" id="node4" href="$lru_8h.html#a5bbbcf7016b749f4f0382d47ffa989b6" title="deallocate the LRU cache structure " alt="" coords="143,56,208,83"/>
+<area shape="rect" id="node3" href="$lru_8c.html#a5bbbcf7016b749f4f0382d47ffa989b6" title="deallocate the LRU cache structure " alt="" coords="256,5,321,32"/>
+</map>

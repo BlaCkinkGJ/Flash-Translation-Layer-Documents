@@ -1,0 +1,5 @@
+<map id="test_erase" name="test_erase">
+<area shape="rect" id="node2" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="137,5,287,32"/>
+<area shape="rect" id="node3" href="$device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="136,57,288,98"/>
+<area shape="rect" id="node4" href="$device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="336,57,491,98"/>
+</map>

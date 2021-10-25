@@ -1,0 +1,9 @@
+<map id="include/bits.h" name="include/bits.h">
+<area shape="rect" id="node2" href="$bluedbm_8c.html" title="implementation of the bluedbm abstraction layer which is inherited by the device " alt="" coords="5,80,183,107"/>
+<area shape="rect" id="node3" href="$ramdisk_8c.html" title="implementation of the ramdisk which is inherited by the device " alt="" coords="207,80,378,107"/>
+<area shape="rect" id="node4" href="$page-core_8c.html" title="core logic for page ftl " alt="" coords="403,80,540,107"/>
+<area shape="rect" id="node5" href="$page-gc_8c.html" title="garbage collection logic for page ftl " alt="" coords="564,80,691,107"/>
+<area shape="rect" id="node6" href="$page-map_8c.html" title="manage the mapping information " alt="" coords="715,80,852,107"/>
+<area shape="rect" id="node7" href="$page-write_8c.html" title="write logic for page ftl " alt="" coords="876,80,1016,107"/>
+<area shape="rect" id="node8" href="$bits-test_8c.html" title="test/bits&#45;test.c" alt="" coords="1041,80,1147,107"/>
+</map>

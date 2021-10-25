@@ -1,0 +1,8 @@
+<map id="page_ftl_module_init" name="page_ftl_module_init">
+<area shape="rect" id="node2" href="$device_8c.html#ae00e848634098b2c178014084aaebbe5" title="initialize the device module " alt="" coords="201,5,334,32"/>
+<area shape="rect" id="node4" href="$page-interface_8c.html#a9b7209a032484206128890d785ba99c2" title="free resources in the page flash translation layer module " alt="" coords="195,56,340,83"/>
+<area shape="rect" id="node3" href="$device_8c.html#adeffd903e3a445dbbd1305b6cfc9b54f" title="deallocate the device module " alt="" coords="388,5,525,32"/>
+<area shape="rect" id="node5" href="$page-core_8c.html#abd22f5acb8a0cede652c46ee5229e504" title="deallocate the page ftl structure&#39;s members " alt="" coords="403,56,510,83"/>
+<area shape="rect" id="node6" href="$page-core_8c.html#a60e6f0f95185fdb010a5bacb80ed30d0" title="deallocate the ftl&#39;s segments " alt="" coords="573,56,735,83"/>
+<area shape="rect" id="node7" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="783,56,949,83"/>
+</map>

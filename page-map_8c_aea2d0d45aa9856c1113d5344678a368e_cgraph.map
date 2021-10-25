@@ -1,0 +1,9 @@
+<map id="page_ftl_update_map" name="page_ftl_update_map">
+<area shape="rect" id="node2" href="$page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="419,5,537,32"/>
+<area shape="rect" id="node4" href="$page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="200,56,356,83"/>
+<area shape="rect" id="node3" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="608,56,759,83"/>
+<area shape="rect" id="node5" href="$device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="404,107,552,133"/>
+<area shape="rect" id="node6" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="600,107,767,133"/>
+<area shape="rect" id="node7" href="$device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="607,158,759,199"/>
+<area shape="rect" id="node8" href="$device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="815,158,969,199"/>
+</map>

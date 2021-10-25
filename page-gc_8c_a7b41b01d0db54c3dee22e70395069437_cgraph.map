@@ -1,0 +1,9 @@
+<map id="page_ftl_read_valid_page" name="page_ftl_read_valid_page">
+<area shape="rect" id="node2" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="781,100,932,126"/>
+<area shape="rect" id="node3" href="$device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="372,24,516,50"/>
+<area shape="rect" id="node4" href="$page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="223,125,323,152"/>
+<area shape="rect" id="node8" href="$device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="580,277,719,304"/>
+<area shape="rect" id="node5" href="$page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="591,125,708,152"/>
+<area shape="rect" id="node6" href="$page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="565,176,733,202"/>
+<area shape="rect" id="node7" href="$page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="371,226,517,253"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="page_ftl_segment_erase" name="page_ftl_segment_erase">
+<area shape="rect" id="node2" href="$device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="222,5,366,32"/>
+<area shape="rect" id="node3" href="$page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="217,56,371,83"/>
+<area shape="rect" id="node4" href="$device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="419,56,557,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="bluedbm_write" name="bluedbm_write">
+<area shape="rect" id="node2" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="170,5,321,32"/>
+<area shape="rect" id="node3" href="$bluedbm_8c.html#af8c723f354472a78d788c3784def13b8" title="end request for the read/write " alt="" coords="160,56,331,83"/>
+</map>

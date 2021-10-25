@@ -1,0 +1,5 @@
+<map id="ramdisk_write" name="ramdisk_write">
+<area shape="rect" id="node2" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="156,5,307,32"/>
+<area shape="rect" id="node3" href="$bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="201,56,262,83"/>
+<area shape="rect" id="node4" href="$bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="201,107,262,133"/>
+</map>

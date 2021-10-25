@@ -1,0 +1,5 @@
+<map id="zone_read" name="zone_read">
+<area shape="rect" id="node2" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="344,5,495,32"/>
+<area shape="rect" id="node3" href="$zone_8h.html#a9005465e91b479238d1825eb9f36f0e1" title="zone_get_zone_number" alt="" coords="136,31,296,57"/>
+<area shape="rect" id="node4" href="$zone_8c.html#a1781b8c46658a3365f1e1b7cbc99b520" title="execute the read and write function " alt="" coords="170,81,262,108"/>
+</map>

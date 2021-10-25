@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$module_8h.html#aa7056e5ec4f318608f8912edcd18085c" title="generic initializer for initialize the module " alt="" coords="119,5,207,32"/>
+<area shape="rect" id="node5" href="$main_8c.html#a896c62b931fc5a81daff547f9c1e916e" title="write_thread" alt="" coords="117,56,210,83"/>
+<area shape="rect" id="node6" href="$main_8c.html#a18b9c0a821ee2a92371142666420692a" title="read_thread" alt="" coords="118,107,209,133"/>
+<area shape="rect" id="node7" href="$main_8c.html#a7e528b5eaf004fa3b05b9240a9123e20" title="overwrite_thread" alt="" coords="104,157,223,184"/>
+<area shape="rect" id="node8" href="$main_8c.html#aa17cc827021a5f94026b1111e76b4801" title="erase_thread" alt="" coords="115,208,212,235"/>
+<area shape="rect" id="node9" href="$module_8h.html#ac1252483f54da2ed2d7006ce3831631d" title="free resources in the flash module and submodule " alt="" coords="117,259,209,285"/>
+<area shape="rect" id="node3" href="$flash_8h.html#a520d814f08b3dcd5ff943f6124f883d0" title="initialize the flash module " alt="" coords="273,5,395,32"/>
+<area shape="rect" id="node4" href="$flash_8c.html#a0621fc439448be21d88629d47bf52c91" title="free resources in the flash module " alt="" coords="445,5,572,32"/>
+<area shape="rect" id="node10" href="$flash_8h.html#a6f2cc9fc407edcbd32eefbd7fcca488f" title="free resources in the flash module " alt="" coords="271,259,397,285"/>
+</map>
