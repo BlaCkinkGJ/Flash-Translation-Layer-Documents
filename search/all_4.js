@@ -35,6 +35,7 @@ var searchData=
   ['device_5fpackage',['device_package',['../structdevice__package.html',1,'']]],
   ['device_5fpage',['device_page',['../structdevice__page.html',1,'']]],
   ['device_5fpage_5fsize',['DEVICE_PAGE_SIZE',['../device_8h.html#acacd5676826c326407fe97ec327bbaf1',1,'device.h']]],
+  ['device_5fpath',['DEVICE_PATH',['../main_8c.html#a74925a96730e9a56b81fc0715cfc36a3',1,'main.c']]],
   ['device_5fread',['DEVICE_READ',['../device_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a7a1d740684e07036afced45f27a05b99',1,'device.h']]],
   ['device_5frequest',['device_request',['../structdevice__request.html',1,'']]],
   ['device_5fwrite',['DEVICE_WRITE',['../device_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a572524ae95f6a949b4c3c760726e7e45',1,'device.h']]]

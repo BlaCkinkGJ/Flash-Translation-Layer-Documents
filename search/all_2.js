@@ -29,5 +29,6 @@ var searchData=
   ['bluedbm_5fwait_5ferase_5ffinish',['bluedbm_wait_erase_finish',['../bluedbm_8c.html#a3f978c501326558dc4f42e39ff5ec93c',1,'bluedbm.c']]],
   ['bluedbm_5fwrite',['bluedbm_write',['../bluedbm_8c.html#a0661726b465b09be889450b4b8491857',1,'bluedbm_write(struct device *dev, struct device_request *request):&#160;bluedbm.c'],['../bluedbm_8h.html#a0aa1f7800212172d807b89ad78623125',1,'bluedbm_write(struct device *, struct device_request *):&#160;bluedbm.c']]],
   ['buffer',['buffer',['../structramdisk.html#a34ba5fcd407426b6c8c9cf3e2c6c2214',1,'ramdisk::buffer()'],['../structzone__meta.html#a85e8c3f5e05b5492408426517eec1b9e',1,'zone_meta::buffer()']]],
-  ['bus',['bus',['../structdevice__address.html#ab164fa84f994ec3b4301744ba67dae2f',1,'device_address']]]
+  ['bus',['bus',['../structdevice__address.html#ab164fa84f994ec3b4301744ba67dae2f',1,'device_address']]],
+  ['bus_5frwlock',['bus_rwlock',['../structpage__ftl.html#acf3c0d0c821da82d143cc34ffb3c2612',1,'page_ftl']]]
 ];

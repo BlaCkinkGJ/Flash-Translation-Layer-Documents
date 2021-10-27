@@ -101,7 +101,7 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>read logic for page ftl </p>
 <dl class="section author"><dt>Author</dt><dd>Gijun Oh </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2021-09-22 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a03ada441cc7b7264607a4f25210fee3d"></a>
@@ -139,17 +139,19 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>reading data size. a negative number means fail to read. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>if paddr.lpn doesn't exist, this function returns the buffer filled 0 value. </dd></dl>
+<p>&lt; YOU MUST TAKE CARE OF THIS LINE </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="page-read_8c_a03ada441cc7b7264607a4f25210fee3d_cgraph.png" border="0" usemap="#page-read_8c_a03ada441cc7b7264607a4f25210fee3d_cgraph" alt=""/></div>
 <map name="page-read_8c_a03ada441cc7b7264607a4f25210fee3d_cgraph" id="page-read_8c_a03ada441cc7b7264607a4f25210fee3d_cgraph">
-<area shape="rect" id="node2" href="device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="564,28,715,55"/>
-<area shape="rect" id="node3" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="373,28,491,55"/>
-<area shape="rect" id="node4" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="348,79,516,106"/>
-<area shape="rect" id="node5" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="155,130,299,156"/>
-<area shape="rect" id="node6" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="153,180,300,207"/>
-<area shape="rect" id="node7" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="363,206,501,232"/>
+<area shape="rect" id="node2" href="device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="564,37,715,63"/>
+<area shape="rect" id="node3" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="373,214,491,241"/>
+<area shape="rect" id="node4" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="363,113,501,139"/>
+<area shape="rect" id="node5" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="348,37,516,63"/>
+<area shape="rect" id="node6" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="155,177,299,203"/>
+<area shape="rect" id="node7" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="153,75,300,102"/>
 </map>
 </div>
 

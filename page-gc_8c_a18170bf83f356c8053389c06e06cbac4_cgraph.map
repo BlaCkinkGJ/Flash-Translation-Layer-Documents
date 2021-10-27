@@ -1,25 +1,26 @@
 <map id="page_ftl_valid_page_copy" name="page_ftl_valid_page_copy">
-<area shape="rect" id="node2" href="$page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="603,90,772,117"/>
-<area shape="rect" id="node10" href="$page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="225,318,397,345"/>
-<area shape="rect" id="node3" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="1460,496,1611,522"/>
-<area shape="rect" id="node4" href="$device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="1038,141,1182,168"/>
-<area shape="rect" id="node5" href="$page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="855,293,955,320"/>
-<area shape="rect" id="node9" href="$device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1251,141,1389,168"/>
-<area shape="rect" id="node6" href="$page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="1051,546,1169,573"/>
-<area shape="rect" id="node7" href="$page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="1236,344,1404,370"/>
-<area shape="rect" id="node8" href="$page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1037,242,1183,269"/>
-<area shape="rect" id="node11" href="$page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="445,496,548,522"/>
-<area shape="rect" id="node12" href="$page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="1032,648,1188,674"/>
-<area shape="rect" id="node17" href="$page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="827,800,984,826"/>
-<area shape="rect" id="node21" href="$page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="596,344,779,370"/>
-<area shape="rect" id="node22" href="$page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="613,622,762,649"/>
-<area shape="rect" id="node13" href="$device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="1246,800,1394,826"/>
-<area shape="rect" id="node14" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="1452,822,1619,849"/>
-<area shape="rect" id="node15" href="$device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="1459,920,1611,962"/>
-<area shape="rect" id="node16" href="$device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="1667,920,1821,962"/>
-<area shape="rect" id="node18" href="$bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="1079,698,1141,725"/>
-<area shape="rect" id="node19" href="$bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="1047,800,1173,826"/>
-<area shape="rect" id="node20" href="$bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="1079,749,1141,776"/>
-<area shape="rect" id="node23" href="$page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="840,749,971,776"/>
-<area shape="rect" id="node24" href="$page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="832,648,979,674"/>
+<area shape="rect" id="node2" href="$page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="603,844,772,871"/>
+<area shape="rect" id="node10" href="$page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="225,616,397,643"/>
+<area shape="rect" id="node3" href="$device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="1460,439,1611,465"/>
+<area shape="rect" id="node4" href="$device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="1038,844,1182,871"/>
+<area shape="rect" id="node5" href="$page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="855,692,955,719"/>
+<area shape="rect" id="node7" href="$device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1251,591,1389,617"/>
+<area shape="rect" id="node6" href="$page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="1051,337,1169,364"/>
+<area shape="rect" id="node8" href="$page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="1236,667,1404,693"/>
+<area shape="rect" id="node9" href="$page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1037,641,1183,668"/>
+<area shape="rect" id="node11" href="$page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="445,388,548,415"/>
+<area shape="rect" id="node12" href="$page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="1032,236,1188,263"/>
+<area shape="rect" id="node17" href="$page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="827,84,984,111"/>
+<area shape="rect" id="node21" href="$page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="596,692,779,719"/>
+<area shape="rect" id="node22" href="$page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="613,515,762,541"/>
+<area shape="rect" id="node23" href="$page-write_8c.html#ae8c9802b74cb9ff48eaed6ca00206d5b" title="page_ftl_write_update\l_metadata" alt="" coords="613,254,762,295"/>
+<area shape="rect" id="node13" href="$device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="1246,211,1394,237"/>
+<area shape="rect" id="node14" href="$device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="1452,25,1619,52"/>
+<area shape="rect" id="node15" href="$device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="1459,161,1611,202"/>
+<area shape="rect" id="node16" href="$device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="1667,161,1821,202"/>
+<area shape="rect" id="node18" href="$bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="1079,135,1141,161"/>
+<area shape="rect" id="node19" href="$bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="1047,84,1173,111"/>
+<area shape="rect" id="node20" href="$bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="1079,185,1141,212"/>
+<area shape="rect" id="node24" href="$page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="840,135,971,161"/>
+<area shape="rect" id="node25" href="$page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="832,236,979,263"/>
 </map>

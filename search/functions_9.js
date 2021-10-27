@@ -10,7 +10,7 @@ var searchData=
   ['page_5fftl_5fgc_5flist_5fcmp',['page_ftl_gc_list_cmp',['../page-gc_8c.html#a32e9cc6ed74c5738778258646318689c',1,'page-gc.c']]],
   ['page_5fftl_5fgc_5fthread',['page_ftl_gc_thread',['../page-core_8c.html#a526b3bc932d94378272a2f898dbc6a14',1,'page-core.c']]],
   ['page_5fftl_5fget_5ffree_5fpage',['page_ftl_get_free_page',['../page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1',1,'page_ftl_get_free_page(struct page_ftl *pgftl):&#160;page-map.c'],['../page_8h.html#afc805fb6f2376b37c31bec12fb7f8c55',1,'page_ftl_get_free_page(struct page_ftl *):&#160;page-map.c']]],
-  ['page_5fftl_5fget_5finvalid_5fpages',['page_ftl_get_invalid_pages',['../page-core_8c.html#a69bce08fb2866af2d8383db2c6e990d6',1,'page-core.c']]],
+  ['page_5fftl_5fget_5ffree_5fpages',['page_ftl_get_free_pages',['../page-core_8c.html#ab708e5590f2ab48750c2a4595b000e13',1,'page-core.c']]],
   ['page_5fftl_5fget_5flpn',['page_ftl_get_lpn',['../page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde',1,'page.h']]],
   ['page_5fftl_5fget_5fmap_5fsize',['page_ftl_get_map_size',['../page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6',1,'page.h']]],
   ['page_5fftl_5fget_5fpage_5foffset',['page_ftl_get_page_offset',['../page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1',1,'page.h']]],
@@ -36,5 +36,6 @@ var searchData=
   ['page_5fftl_5fwrite',['page_ftl_write',['../page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0',1,'page_ftl_write(struct page_ftl *pgftl, struct device_request *request):&#160;page-write.c'],['../page_8h.html#a73bf7114db73929c2d07a22ea85a7616',1,'page_ftl_write(struct page_ftl *, struct device_request *):&#160;page-write.c']]],
   ['page_5fftl_5fwrite_5fend_5frq',['page_ftl_write_end_rq',['../page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f',1,'page-write.c']]],
   ['page_5fftl_5fwrite_5finterface',['page_ftl_write_interface',['../page-interface_8c.html#a5df00309653e4024c9d7ce86a3e8078f',1,'page-interface.c']]],
+  ['page_5fftl_5fwrite_5fupdate_5fmetadata',['page_ftl_write_update_metadata',['../page-write_8c.html#ae8c9802b74cb9ff48eaed6ca00206d5b',1,'page-write.c']]],
   ['page_5fftl_5fwrite_5fvalid_5fpage',['page_ftl_write_valid_page',['../page-gc_8c.html#a9009732dc94fb779c60c513436f64430',1,'page-gc.c']]]
 ];

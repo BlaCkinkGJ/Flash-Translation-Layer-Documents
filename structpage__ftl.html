@@ -75,8 +75,8 @@ Collaboration diagram for page_ftl:</div>
 <div class="dyncontent">
 <div class="center"><img src="structpage__ftl__coll__graph.png" border="0" usemap="#page__ftl_coll__map" alt="Collaboration graph"/></div>
 <map name="page__ftl_coll__map" id="page__ftl_coll__map">
-<area shape="rect" id="node2" href="structpage__ftl__segment.html" title="segment information structure " alt="" coords="5,624,131,745"/>
-<area shape="rect" id="node3" href="structdevice.html" title="metadata of the device " alt="" coords="155,624,293,745"/>
+<area shape="rect" id="node2" href="structpage__ftl__segment.html" title="segment information structure " alt="" coords="5,624,131,760"/>
+<area shape="rect" id="node3" href="structdevice.html" title="metadata of the device " alt="" coords="155,631,293,753"/>
 <area shape="rect" id="node4" href="structdevice__info.html" title="flash board&#39;s architecture information " alt="" coords="97,447,185,539"/>
 <area shape="rect" id="node5" href="structdevice__package.html" title="flash board&#39;s package(nand chip) information " alt="" coords="83,285,199,363"/>
 <area shape="rect" id="node6" href="structdevice__block.html" title="flash board&#39;s block information " alt="" coords="92,145,191,223"/>
@@ -97,8 +97,10 @@ Data Fields</h2></td></tr>
 <tr class="separator:a0a9598dd8bea33e61cc5e414cc403d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c362260490a0ad54637bccab5806934"><td class="memItemLeft" align="right" valign="top">pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__ftl.html#a2c362260490a0ad54637bccab5806934">mutex</a></td></tr>
 <tr class="separator:a2c362260490a0ad54637bccab5806934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa9dc7533dc5c075a69bcc5bfd4538d"><td class="memItemLeft" align="right" valign="top">pthread_rwlock_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__ftl.html#a6fa9dc7533dc5c075a69bcc5bfd4538d">rwlock</a></td></tr>
-<tr class="separator:a6fa9dc7533dc5c075a69bcc5bfd4538d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6182815b5427307ccffcc0949e215a0"><td class="memItemLeft" align="right" valign="top">pthread_rwlock_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__ftl.html#ad6182815b5427307ccffcc0949e215a0">gc_rwlock</a></td></tr>
+<tr class="separator:ad6182815b5427307ccffcc0949e215a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf3c0d0c821da82d143cc34ffb3c2612"><td class="memItemLeft" align="right" valign="top">pthread_rwlock_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__ftl.html#acf3c0d0c821da82d143cc34ffb3c2612">bus_rwlock</a></td></tr>
+<tr class="separator:acf3c0d0c821da82d143cc34ffb3c2612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70dbdfdbcd4b229d51aea845b5149adc"><td class="memItemLeft" align="right" valign="top">pthread_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__ftl.html#a70dbdfdbcd4b229d51aea845b5149adc">gc_thread</a></td></tr>
 <tr class="separator:a70dbdfdbcd4b229d51aea845b5149adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94f116c4fb2d42019294ff09a87335b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__ftl.html#a94f116c4fb2d42019294ff09a87335b2">o_flags</a></td></tr>
@@ -123,6 +125,20 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>last allocated segment number </p>
+
+</div>
+</div>
+<a id="acf3c0d0c821da82d143cc34ffb3c2612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf3c0d0c821da82d143cc34ffb3c2612">&#9670;&nbsp;</a></span>bus_rwlock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_rwlock_t* page_ftl::bus_rwlock</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -152,6 +168,20 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>garbage collection target list </p>
+
+</div>
+</div>
+<a id="ad6182815b5427307ccffcc0949e215a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6182815b5427307ccffcc0949e215a0">&#9670;&nbsp;</a></span>gc_rwlock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_rwlock_t page_ftl::gc_rwlock</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -206,20 +236,6 @@ Data Fields</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int page_ftl::o_flags</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6fa9dc7533dc5c075a69bcc5bfd4538d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa9dc7533dc5c075a69bcc5bfd4538d">&#9670;&nbsp;</a></span>rwlock</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">pthread_rwlock_t page_ftl::rwlock</td>
         </tr>
       </table>
 </div><div class="memdoc">

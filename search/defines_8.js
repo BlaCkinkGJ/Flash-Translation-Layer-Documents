@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zbd_5ffile_5fname',['ZBD_FILE_NAME',['../zone-test_8c.html#ad830801c8eed16b161e735a471da0ff3',1,'zone-test.c']]]
+  ['use_5frandom_5fwait',['USE_RANDOM_WAIT',['../main_8c.html#a4550450b39252186cf2744d9109dffa1',1,'main.c']]]
 ];

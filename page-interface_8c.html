@@ -124,7 +124,7 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>interface for page ftl </p>
 <dl class="section author"><dt>Author</dt><dd>Gijun Oh </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2021-09-22 </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a1590c8544e99c3e1f47354b042be6b64"></a>
@@ -228,18 +228,19 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="page-interface_8c_afff5727b8cdb1960f5a8d11bb836d643_cgraph.png" border="0" usemap="#page-interface_8c_afff5727b8cdb1960f5a8d11bb836d643_cgraph" alt=""/></div>
 <map name="page-interface_8c_afff5727b8cdb1960f5a8d11bb836d643_cgraph" id="page-interface_8c_afff5727b8cdb1960f5a8d11bb836d643_cgraph">
 <area shape="rect" id="node2" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="1698,195,1842,221"/>
-<area shape="rect" id="node3" href="page-core_8c.html#ab52afda690c5581b1d51778b8ff5d710" title="submit the request to the valid function " alt="" coords="209,435,373,461"/>
-<area shape="rect" id="node20" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1911,271,2049,297"/>
-<area shape="rect" id="node4" href="page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="1059,688,1162,715"/>
+<area shape="rect" id="node3" href="page-core_8c.html#ab52afda690c5581b1d51778b8ff5d710" title="submit the request to the valid function " alt="" coords="209,432,373,459"/>
+<area shape="rect" id="node19" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1911,271,2049,297"/>
+<area shape="rect" id="node4" href="page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="1059,689,1162,716"/>
 <area shape="rect" id="node18" href="page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="1512,448,1612,475"/>
-<area shape="rect" id="node24" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="421,460,532,487"/>
+<area shape="rect" id="node25" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="421,457,532,484"/>
 <area shape="rect" id="node5" href="device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="2120,600,2271,627"/>
 <area shape="rect" id="node6" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="1711,701,1829,728"/>
 <area shape="rect" id="node7" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="1896,499,2064,525"/>
 <area shape="rect" id="node8" href="page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="1692,853,1848,880"/>
 <area shape="rect" id="node13" href="page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="1483,1005,1641,1032"/>
-<area shape="rect" id="node17" href="page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="1249,531,1432,557"/>
-<area shape="rect" id="node21" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1266,853,1415,880"/>
+<area shape="rect" id="node17" href="page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="1249,528,1432,555"/>
+<area shape="rect" id="node21" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1266,353,1415,380"/>
+<area shape="rect" id="node22" href="page-write_8c.html#ae8c9802b74cb9ff48eaed6ca00206d5b" title="page_ftl_write_update\l_metadata" alt="" coords="1266,838,1415,879"/>
 <area shape="rect" id="node9" href="device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="1906,955,2054,981"/>
 <area shape="rect" id="node10" href="device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="2112,1001,2279,1028"/>
 <area shape="rect" id="node11" href="device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="2119,1099,2271,1141"/>
@@ -247,19 +248,19 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node14" href="bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="1739,904,1801,931"/>
 <area shape="rect" id="node15" href="bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="1707,1005,1833,1032"/>
 <area shape="rect" id="node16" href="bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="1739,955,1801,981"/>
-<area shape="rect" id="node19" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1697,397,1843,424"/>
-<area shape="rect" id="node22" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1497,955,1627,981"/>
-<area shape="rect" id="node23" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1489,853,1635,880"/>
-<area shape="rect" id="node25" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="586,511,746,537"/>
-<area shape="rect" id="node27" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="811,554,961,595"/>
-<area shape="rect" id="node28" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="580,296,752,323"/>
-<area shape="rect" id="node31" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1480,93,1644,120"/>
-<area shape="rect" id="node33" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="1020,953,1201,980"/>
-<area shape="rect" id="node34" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="630,460,702,487"/>
-<area shape="rect" id="node26" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="813,503,959,529"/>
-<area shape="rect" id="node29" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1256,296,1425,323"/>
-<area shape="rect" id="node30" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="800,220,972,247"/>
-<area shape="rect" id="node32" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="1693,144,1847,171"/>
+<area shape="rect" id="node20" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1697,397,1843,424"/>
+<area shape="rect" id="node23" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1497,955,1627,981"/>
+<area shape="rect" id="node24" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1489,853,1635,880"/>
+<area shape="rect" id="node26" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="586,508,746,535"/>
+<area shape="rect" id="node28" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="811,551,961,593"/>
+<area shape="rect" id="node29" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="580,300,752,327"/>
+<area shape="rect" id="node32" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1480,93,1644,120"/>
+<area shape="rect" id="node34" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="1020,948,1201,975"/>
+<area shape="rect" id="node35" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="630,457,702,484"/>
+<area shape="rect" id="node27" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="813,500,959,527"/>
+<area shape="rect" id="node30" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1256,300,1425,327"/>
+<area shape="rect" id="node31" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="800,221,972,248"/>
+<area shape="rect" id="node33" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="1693,144,1847,171"/>
 </map>
 </div>
 
@@ -409,48 +410,49 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="page-interface_8c_a789d15a02b1fa4806ccee315d2fb414b_cgraph.png" border="0" usemap="#page-interface_8c_a789d15a02b1fa4806ccee315d2fb414b_cgraph" alt=""/></div>
 <map name="page-interface_8c_a789d15a02b1fa4806ccee315d2fb414b_cgraph" id="page-interface_8c_a789d15a02b1fa4806ccee315d2fb414b_cgraph">
-<area shape="rect" id="node2" href="page-core_8c.html#a0732aa17365ec86acc7935159e41644c" title="allocate the page ftl structure&#39;s members " alt="" coords="213,208,316,235"/>
-<area shape="rect" id="node3" href="page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="2195,512,2351,539"/>
-<area shape="rect" id="node5" href="device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="2629,132,2796,159"/>
-<area shape="rect" id="node9" href="page-core_8c.html#a0ca5832ac120621b6758f42b1bf34a0c" title="initialize each segment&#39;s metadata " alt="" coords="2198,259,2347,285"/>
-<area shape="rect" id="node12" href="page-core_8c.html#a526b3bc932d94378272a2f898dbc6a14" title="do garbage collection thread " alt="" coords="364,949,496,976"/>
-<area shape="rect" id="node42" href="page-core_8c.html#abd22f5acb8a0cede652c46ee5229e504" title="deallocate the page ftl structure&#39;s members " alt="" coords="564,5,671,32"/>
-<area shape="rect" id="node4" href="device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="2417,512,2565,539"/>
-<area shape="rect" id="node8" href="device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="2637,892,2788,919"/>
-<area shape="rect" id="node6" href="device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="2637,378,2789,419"/>
-<area shape="rect" id="node7" href="device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="2844,378,2999,419"/>
-<area shape="rect" id="node10" href="page-core_8c.html#aa74b6b9f6773b961bf1bb7d675870073" title="allocate the segment&#39;s bitmap " alt="" coords="2417,309,2565,336"/>
-<area shape="rect" id="node11" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="2400,360,2581,387"/>
-<area shape="rect" id="node13" href="device_8h.html#ac5b7db8e4737e5887fb5fc21ec67ffe6" title="get total the number of pages in a flash board " alt="" coords="2193,917,2352,944"/>
-<area shape="rect" id="node14" href="page-core_8c.html#a69bce08fb2866af2d8383db2c6e990d6" title="get number of invalid pages in the ftl " alt="" coords="752,990,889,1031"/>
-<area shape="rect" id="node15" href="page-core_8c.html#a81269dd3e45836a6fa35f393529d3ed9" title="do garbage collection from the gc list " alt="" coords="544,917,691,944"/>
-<area shape="rect" id="node16" href="page-core_8c.html#ab52afda690c5581b1d51778b8ff5d710" title="submit the request to the valid function " alt="" coords="739,917,903,944"/>
-<area shape="rect" id="node17" href="page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="1600,841,1703,868"/>
-<area shape="rect" id="node26" href="page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="2013,1272,2113,1299"/>
-<area shape="rect" id="node32" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="976,715,1087,741"/>
-<area shape="rect" id="node18" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="2214,816,2331,843"/>
-<area shape="rect" id="node19" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="2407,1272,2575,1299"/>
-<area shape="rect" id="node20" href="page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="1985,563,2142,589"/>
-<area shape="rect" id="node24" href="page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="1751,1019,1933,1045"/>
-<area shape="rect" id="node28" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="2421,1196,2560,1223"/>
-<area shape="rect" id="node29" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1767,765,1917,792"/>
-<area shape="rect" id="node21" href="bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="2242,664,2303,691"/>
-<area shape="rect" id="node22" href="bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="2210,563,2335,589"/>
-<area shape="rect" id="node23" href="bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="2242,613,2303,640"/>
-<area shape="rect" id="node25" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="2201,1095,2345,1121"/>
-<area shape="rect" id="node27" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="2199,1247,2346,1273"/>
-<area shape="rect" id="node30" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1998,613,2129,640"/>
-<area shape="rect" id="node31" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1990,715,2137,741"/>
-<area shape="rect" id="node33" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="1166,664,1326,691"/>
-<area shape="rect" id="node35" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="1391,699,1541,741"/>
-<area shape="rect" id="node36" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="1160,816,1332,843"/>
-<area shape="rect" id="node39" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1981,1069,2145,1096"/>
-<area shape="rect" id="node41" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="1210,613,1282,640"/>
-<area shape="rect" id="node34" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="1393,648,1539,675"/>
-<area shape="rect" id="node37" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1757,1272,1927,1299"/>
-<area shape="rect" id="node38" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="1380,841,1552,868"/>
-<area shape="rect" id="node40" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="2196,1044,2349,1071"/>
-<area shape="rect" id="node43" href="page-core_8c.html#a60e6f0f95185fdb010a5bacb80ed30d0" title="deallocate the ftl&#39;s segments " alt="" coords="951,5,1112,32"/>
+<area shape="rect" id="node2" href="page-core_8c.html#a0732aa17365ec86acc7935159e41644c" title="allocate the page ftl structure&#39;s members " alt="" coords="213,443,316,469"/>
+<area shape="rect" id="node3" href="page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="2195,917,2351,944"/>
+<area shape="rect" id="node5" href="device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="2629,157,2796,184"/>
+<area shape="rect" id="node9" href="page-core_8c.html#a0ca5832ac120621b6758f42b1bf34a0c" title="initialize each segment&#39;s metadata " alt="" coords="2198,1323,2347,1349"/>
+<area shape="rect" id="node12" href="page-core_8c.html#a526b3bc932d94378272a2f898dbc6a14" title="do garbage collection thread " alt="" coords="364,443,496,469"/>
+<area shape="rect" id="node43" href="page-core_8c.html#abd22f5acb8a0cede652c46ee5229e504" title="deallocate the page ftl structure&#39;s members " alt="" coords="564,5,671,32"/>
+<area shape="rect" id="node4" href="device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="2417,1171,2565,1197"/>
+<area shape="rect" id="node8" href="device_8h.html#a5abb41e3bd32227e0a51f621e33287ab" title="get flash board&#39;s NAND page size " alt="" coords="2637,791,2788,817"/>
+<area shape="rect" id="node6" href="device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="2637,1315,2789,1357"/>
+<area shape="rect" id="node7" href="device_8h.html#afe917aa4ec5ca3f277d3b4dea249ac80" title="device_get_blocks_per\l_segment" alt="" coords="2844,1315,2999,1357"/>
+<area shape="rect" id="node10" href="page-core_8c.html#aa74b6b9f6773b961bf1bb7d675870073" title="allocate the segment&#39;s bitmap " alt="" coords="2417,1424,2565,1451"/>
+<area shape="rect" id="node11" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="2400,1323,2581,1349"/>
+<area shape="rect" id="node13" href="device_8h.html#ac5b7db8e4737e5887fb5fc21ec67ffe6" title="get total the number of pages in a flash board " alt="" coords="2193,1221,2352,1248"/>
+<area shape="rect" id="node14" href="page-core_8c.html#ab708e5590f2ab48750c2a4595b000e13" title="get number of invalid pages in the ftl " alt="" coords="739,107,903,133"/>
+<area shape="rect" id="node15" href="page-core_8c.html#a81269dd3e45836a6fa35f393529d3ed9" title="do garbage collection from the gc list " alt="" coords="544,443,691,469"/>
+<area shape="rect" id="node16" href="page-core_8c.html#ab52afda690c5581b1d51778b8ff5d710" title="submit the request to the valid function " alt="" coords="739,556,903,583"/>
+<area shape="rect" id="node17" href="page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="1600,791,1703,817"/>
+<area shape="rect" id="node26" href="page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="2013,613,2113,640"/>
+<area shape="rect" id="node33" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="976,401,1087,428"/>
+<area shape="rect" id="node18" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="2214,867,2331,893"/>
+<area shape="rect" id="node19" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="2407,740,2575,767"/>
+<area shape="rect" id="node20" href="page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="1985,1120,2142,1147"/>
+<area shape="rect" id="node24" href="page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="1751,563,1933,589"/>
+<area shape="rect" id="node29" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1767,715,1917,741"/>
+<area shape="rect" id="node30" href="page-write_8c.html#ae8c9802b74cb9ff48eaed6ca00206d5b" title="page_ftl_write_update\l_metadata" alt="" coords="1767,885,1917,926"/>
+<area shape="rect" id="node21" href="bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="2242,968,2303,995"/>
+<area shape="rect" id="node22" href="bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="2210,1120,2335,1147"/>
+<area shape="rect" id="node23" href="bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="2242,1019,2303,1045"/>
+<area shape="rect" id="node25" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="2201,360,2345,387"/>
+<area shape="rect" id="node27" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="2421,512,2560,539"/>
+<area shape="rect" id="node28" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="2199,613,2346,640"/>
+<area shape="rect" id="node31" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1998,1069,2129,1096"/>
+<area shape="rect" id="node32" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1990,917,2137,944"/>
+<area shape="rect" id="node34" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="1166,401,1326,428"/>
+<area shape="rect" id="node36" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="1391,297,1541,338"/>
+<area shape="rect" id="node37" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="1160,452,1332,479"/>
+<area shape="rect" id="node40" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1981,259,2145,285"/>
+<area shape="rect" id="node42" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="1210,351,1282,377"/>
+<area shape="rect" id="node35" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="1393,363,1539,389"/>
+<area shape="rect" id="node38" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1757,360,1927,387"/>
+<area shape="rect" id="node39" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="1380,495,1552,521"/>
+<area shape="rect" id="node41" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="2196,259,2349,285"/>
+<area shape="rect" id="node44" href="page-core_8c.html#a60e6f0f95185fdb010a5bacb80ed30d0" title="deallocate the ftl&#39;s segments " alt="" coords="951,5,1112,32"/>
 </map>
 </div>
 
@@ -525,15 +527,16 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node3" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="1897,651,2065,677"/>
 <area shape="rect" id="node4" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="1699,195,1843,221"/>
 <area shape="rect" id="node5" href="page-core_8c.html#ab52afda690c5581b1d51778b8ff5d710" title="submit the request to the valid function " alt="" coords="211,499,375,525"/>
-<area shape="rect" id="node20" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1912,473,2051,500"/>
+<area shape="rect" id="node19" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1912,473,2051,500"/>
 <area shape="rect" id="node6" href="page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="1061,676,1163,703"/>
 <area shape="rect" id="node18" href="page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="1513,499,1613,525"/>
-<area shape="rect" id="node24" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="423,397,533,424"/>
+<area shape="rect" id="node25" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="423,397,533,424"/>
 <area shape="rect" id="node7" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="1713,752,1830,779"/>
 <area shape="rect" id="node8" href="page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="1693,803,1849,829"/>
 <area shape="rect" id="node13" href="page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="1485,955,1642,981"/>
 <area shape="rect" id="node17" href="page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="1251,448,1433,475"/>
-<area shape="rect" id="node21" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1267,777,1417,804"/>
+<area shape="rect" id="node21" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1267,600,1417,627"/>
+<area shape="rect" id="node22" href="page-write_8c.html#ae8c9802b74cb9ff48eaed6ca00206d5b" title="page_ftl_write_update\l_metadata" alt="" coords="1267,770,1417,811"/>
 <area shape="rect" id="node9" href="device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="1907,955,2055,981"/>
 <area shape="rect" id="node10" href="device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="2113,976,2280,1003"/>
 <area shape="rect" id="node11" href="device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="2121,1049,2273,1090"/>
@@ -541,19 +544,19 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node14" href="bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="1741,853,1802,880"/>
 <area shape="rect" id="node15" href="bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="1709,955,1834,981"/>
 <area shape="rect" id="node16" href="bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="1741,904,1802,931"/>
-<area shape="rect" id="node19" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1698,499,1845,525"/>
-<area shape="rect" id="node22" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1498,904,1629,931"/>
-<area shape="rect" id="node23" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1490,803,1637,829"/>
-<area shape="rect" id="node25" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="587,296,747,323"/>
-<area shape="rect" id="node27" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="812,331,963,373"/>
-<area shape="rect" id="node28" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="581,229,753,256"/>
-<area shape="rect" id="node31" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1481,296,1645,323"/>
-<area shape="rect" id="node33" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="1021,1183,1203,1209"/>
-<area shape="rect" id="node34" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="631,448,703,475"/>
-<area shape="rect" id="node26" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="815,280,960,307"/>
-<area shape="rect" id="node29" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1257,245,1427,272"/>
-<area shape="rect" id="node30" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="801,161,973,188"/>
-<area shape="rect" id="node32" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="1695,245,1848,272"/>
+<area shape="rect" id="node20" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1698,499,1845,525"/>
+<area shape="rect" id="node23" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1498,904,1629,931"/>
+<area shape="rect" id="node24" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1490,803,1637,829"/>
+<area shape="rect" id="node26" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="587,296,747,323"/>
+<area shape="rect" id="node28" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="812,331,963,373"/>
+<area shape="rect" id="node29" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="581,229,753,256"/>
+<area shape="rect" id="node32" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1481,296,1645,323"/>
+<area shape="rect" id="node34" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="1021,1183,1203,1209"/>
+<area shape="rect" id="node35" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="631,448,703,475"/>
+<area shape="rect" id="node27" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="815,280,960,307"/>
+<area shape="rect" id="node30" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1257,245,1427,272"/>
+<area shape="rect" id="node31" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="801,161,973,188"/>
+<area shape="rect" id="node33" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="1695,245,1848,272"/>
 </map>
 </div>
 
@@ -628,15 +631,16 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node3" href="page_8h.html#a1f8fcfefd88c6bc045a4f17bb2fa60b1" title="page_ftl_get_page_offset" alt="" coords="1900,651,2068,677"/>
 <area shape="rect" id="node4" href="device_8c.html#ab0d1f54cae818ed37ccb6534be902a90" title="dynamic allocate the device request " alt="" coords="1702,195,1846,221"/>
 <area shape="rect" id="node5" href="page-core_8c.html#ab52afda690c5581b1d51778b8ff5d710" title="submit the request to the valid function " alt="" coords="213,499,377,525"/>
-<area shape="rect" id="node20" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1915,473,2053,500"/>
+<area shape="rect" id="node19" href="device_8c.html#a6cbe2f795a41e9ae8c71376e4795d92b" title="free pre&#45;allocated device_request resource " alt="" coords="1915,473,2053,500"/>
 <area shape="rect" id="node6" href="page-write_8c.html#a0c8aa8e7f9a23fe3033211f0f03e03b0" title="the core logic for writing the request to the device. " alt="" coords="1063,676,1166,703"/>
 <area shape="rect" id="node18" href="page-read_8c.html#a03ada441cc7b7264607a4f25210fee3d" title="the core logic for reading the request to the device. " alt="" coords="1516,499,1616,525"/>
-<area shape="rect" id="node24" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="425,397,536,424"/>
+<area shape="rect" id="node25" href="page-gc_8c.html#a39db89445047112690d03d8211a53966" title="core logic of the garbage collection " alt="" coords="425,397,536,424"/>
 <area shape="rect" id="node7" href="page_8h.html#aa1153880e7edfea4dbb8fcfd23efbfde" title="page_ftl_get_lpn" alt="" coords="1715,752,1833,779"/>
 <area shape="rect" id="node8" href="page_8h.html#a61bc58daf39db2b8c7f6bb19759009f6" title="page_ftl_get_map_size" alt="" coords="1696,803,1852,829"/>
 <area shape="rect" id="node13" href="page-map_8c.html#a8fe47cde6e9eb1b204962acc947fdea1" title="get page from the segment " alt="" coords="1487,955,1645,981"/>
 <area shape="rect" id="node17" href="page-write_8c.html#a09792980732a097d9cc66cb6c3c4040a" title="read sequence for overwrite " alt="" coords="1253,448,1436,475"/>
-<area shape="rect" id="node21" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1270,777,1419,804"/>
+<area shape="rect" id="node21" href="page-write_8c.html#a8d2d0a683ff0be97794fbb2e0ce6004f" title="write&#39;s end request function " alt="" coords="1270,600,1419,627"/>
+<area shape="rect" id="node22" href="page-write_8c.html#ae8c9802b74cb9ff48eaed6ca00206d5b" title="page_ftl_write_update\l_metadata" alt="" coords="1270,770,1419,811"/>
 <area shape="rect" id="node9" href="device_8h.html#a15af0f7c6b80a25259e946db845be12c" title="total size of a flash board " alt="" coords="1910,955,2058,981"/>
 <area shape="rect" id="node10" href="device_8h.html#abf898474e5c79a10d883bde5d0a69247" title="get the number of segments in a flash board " alt="" coords="2116,976,2283,1003"/>
 <area shape="rect" id="node11" href="device_8h.html#a48ead81924272ea2d4a8bd6750435de4" title="get the number of pages in a segment " alt="" coords="2123,1049,2275,1090"/>
@@ -644,19 +648,19 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node14" href="bits_8h.html#ae60fba86e169d5ef568c6047af9cc63e" title="get the value at the index position bit in the array(uint64_t) " alt="" coords="1743,853,1805,880"/>
 <area shape="rect" id="node15" href="bits_8h.html#a901b6fd3c6e09b38c7a27865af23eb92" title="find first zero bit in the array(uint64_t) " alt="" coords="1711,955,1837,981"/>
 <area shape="rect" id="node16" href="bits_8h.html#aa5915f57e508850b40fd9e781dcfea87" title="set the index position bit in the array(uint64_t) " alt="" coords="1743,904,1805,931"/>
-<area shape="rect" id="node19" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1701,499,1847,525"/>
-<area shape="rect" id="node22" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1501,904,1631,931"/>
-<area shape="rect" id="node23" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1493,803,1639,829"/>
-<area shape="rect" id="node25" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="590,296,750,323"/>
-<area shape="rect" id="node27" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="815,331,965,373"/>
-<area shape="rect" id="node28" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="584,229,756,256"/>
-<area shape="rect" id="node31" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1484,296,1648,323"/>
-<area shape="rect" id="node33" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="1024,1183,1205,1209"/>
-<area shape="rect" id="node34" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="634,448,706,475"/>
-<area shape="rect" id="node26" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="817,280,963,307"/>
-<area shape="rect" id="node29" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1260,245,1429,272"/>
-<area shape="rect" id="node30" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="804,161,976,188"/>
-<area shape="rect" id="node32" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="1697,245,1851,272"/>
+<area shape="rect" id="node20" href="page-read_8c.html#afe456b0f3da74e3799f11e5a0ec9bf00" title="read&#39;s end request function " alt="" coords="1701,499,1847,525"/>
+<area shape="rect" id="node23" href="page-write_8c.html#a0a11d5c177574a23b47088506c37cd06" title="invalidate a segment that including to the given LPN " alt="" coords="1501,904,1631,931"/>
+<area shape="rect" id="node24" href="page-map_8c.html#aea2d0d45aa9856c1113d5344678a368e" title="update the mapping information " alt="" coords="1493,803,1639,829"/>
+<area shape="rect" id="node26" href="page-gc_8c.html#a0b583abec382c3d87f8c3c34c0c17c1f" title="the function which chooses the appropriate garbage collection target. " alt="" coords="590,296,750,323"/>
+<area shape="rect" id="node28" href="page_8h.html#af7343608b290367f04e646ff9314b367" title="page_ftl_get_segment\l_number" alt="" coords="815,331,965,373"/>
+<area shape="rect" id="node29" href="page-gc_8c.html#a18170bf83f356c8053389c06e06cbac4" title="core logic of the valid page copy " alt="" coords="584,229,756,256"/>
+<area shape="rect" id="node32" href="page-gc_8c.html#a4d1363e2261e7f0d20b90e949707cb32" title="erase the garbage collection target segment " alt="" coords="1484,296,1648,323"/>
+<area shape="rect" id="node34" href="page-core_8c.html#ac83a1e6226d94796ae5f6547f4a0d46e" title="initialize the page ftl&#39;s segment data only " alt="" coords="1024,1183,1205,1209"/>
+<area shape="rect" id="node35" href="bits_8h.html#ad84d9bdcf049c4506dd5874cda1af75b" title="reset the index position bit in the array(uint64_t) " alt="" coords="634,448,706,475"/>
+<area shape="rect" id="node27" href="page-gc_8c.html#a32e9cc6ed74c5738778258646318689c" title="page ftl gc list compare function " alt="" coords="817,280,963,307"/>
+<area shape="rect" id="node30" href="page-gc_8c.html#a7b41b01d0db54c3dee22e70395069437" title="read the valid pages from the garbage collection target segment " alt="" coords="1260,245,1429,272"/>
+<area shape="rect" id="node31" href="page-gc_8c.html#a9009732dc94fb779c60c513436f64430" title="write valid page to the other segment. " alt="" coords="804,161,976,188"/>
+<area shape="rect" id="node33" href="page-gc_8c.html#a5313c350f6da799b37eb48aee2f56bb6" title="erase&#39;s end request function " alt="" coords="1697,245,1851,272"/>
 </map>
 </div>
 
@@ -674,10 +678,10 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    .open = <a class="code" href="page-interface_8c.html#a789d15a02b1fa4806ccee315d2fb414b">page_ftl_open_interface</a>,</div><div class="line">    .write = <a class="code" href="page-interface_8c.html#a5df00309653e4024c9d7ce86a3e8078f">page_ftl_write_interface</a>,</div><div class="line">    .read = <a class="code" href="page-interface_8c.html#a08b82f4bd0b33ca846dd95a00f81d800">page_ftl_read_interface</a>,</div><div class="line">    .ioctl = <a class="code" href="page-interface_8c.html#afff5727b8cdb1960f5a8d11bb836d643">page_ftl_ioctl_interface</a>,</div><div class="line">    .close = <a class="code" href="page-interface_8c.html#a1590c8544e99c3e1f47354b042be6b64">page_ftl_close_interface</a>,</div><div class="line">}</div><div class="ttc" id="page-interface_8c_html_a1590c8544e99c3e1f47354b042be6b64"><div class="ttname"><a href="page-interface_8c.html#a1590c8544e99c3e1f47354b042be6b64">page_ftl_close_interface</a></div><div class="ttdeci">static int page_ftl_close_interface(struct flash_device *flash)</div><div class="ttdoc">close the page flash translation layer based device </div><div class="ttdef"><b>Definition:</b> page-interface.c:251</div></div>
-<div class="ttc" id="page-interface_8c_html_a08b82f4bd0b33ca846dd95a00f81d800"><div class="ttname"><a href="page-interface_8c.html#a08b82f4bd0b33ca846dd95a00f81d800">page_ftl_read_interface</a></div><div class="ttdeci">static ssize_t page_ftl_read_interface(struct flash_device *flash, void *buffer, size_t count, off_t offset)</div><div class="ttdoc">read the page flash translation layer based device </div><div class="ttdef"><b>Definition:</b> page-interface.c:144</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    .open = <a class="code" href="page-interface_8c.html#a789d15a02b1fa4806ccee315d2fb414b">page_ftl_open_interface</a>,</div><div class="line">    .write = <a class="code" href="page-interface_8c.html#a5df00309653e4024c9d7ce86a3e8078f">page_ftl_write_interface</a>,</div><div class="line">    .read = <a class="code" href="page-interface_8c.html#a08b82f4bd0b33ca846dd95a00f81d800">page_ftl_read_interface</a>,</div><div class="line">    .ioctl = <a class="code" href="page-interface_8c.html#afff5727b8cdb1960f5a8d11bb836d643">page_ftl_ioctl_interface</a>,</div><div class="line">    .close = <a class="code" href="page-interface_8c.html#a1590c8544e99c3e1f47354b042be6b64">page_ftl_close_interface</a>,</div><div class="line">}</div><div class="ttc" id="page-interface_8c_html_a1590c8544e99c3e1f47354b042be6b64"><div class="ttname"><a href="page-interface_8c.html#a1590c8544e99c3e1f47354b042be6b64">page_ftl_close_interface</a></div><div class="ttdeci">static int page_ftl_close_interface(struct flash_device *flash)</div><div class="ttdoc">close the page flash translation layer based device </div><div class="ttdef"><b>Definition:</b> page-interface.c:257</div></div>
+<div class="ttc" id="page-interface_8c_html_a08b82f4bd0b33ca846dd95a00f81d800"><div class="ttname"><a href="page-interface_8c.html#a08b82f4bd0b33ca846dd95a00f81d800">page_ftl_read_interface</a></div><div class="ttdeci">static ssize_t page_ftl_read_interface(struct flash_device *flash, void *buffer, size_t count, off_t offset)</div><div class="ttdoc">read the page flash translation layer based device </div><div class="ttdef"><b>Definition:</b> page-interface.c:149</div></div>
 <div class="ttc" id="page-interface_8c_html_a5df00309653e4024c9d7ce86a3e8078f"><div class="ttname"><a href="page-interface_8c.html#a5df00309653e4024c9d7ce86a3e8078f">page_ftl_write_interface</a></div><div class="ttdeci">static ssize_t page_ftl_write_interface(struct flash_device *flash, void *buffer, size_t count, off_t offset)</div><div class="ttdoc">write the page flash translation layer based device </div><div class="ttdef"><b>Definition:</b> page-interface.c:50</div></div>
-<div class="ttc" id="page-interface_8c_html_afff5727b8cdb1960f5a8d11bb836d643"><div class="ttname"><a href="page-interface_8c.html#afff5727b8cdb1960f5a8d11bb836d643">page_ftl_ioctl_interface</a></div><div class="ttdeci">static int page_ftl_ioctl_interface(struct flash_device *flash, unsigned int request,...)</div><div class="ttdoc">additional commands support interface </div><div class="ttdef"><b>Definition:</b> page-interface.c:275</div></div>
+<div class="ttc" id="page-interface_8c_html_afff5727b8cdb1960f5a8d11bb836d643"><div class="ttname"><a href="page-interface_8c.html#afff5727b8cdb1960f5a8d11bb836d643">page_ftl_ioctl_interface</a></div><div class="ttdeci">static int page_ftl_ioctl_interface(struct flash_device *flash, unsigned int request,...)</div><div class="ttdoc">additional commands support interface </div><div class="ttdef"><b>Definition:</b> page-interface.c:281</div></div>
 <div class="ttc" id="page-interface_8c_html_a789d15a02b1fa4806ccee315d2fb414b"><div class="ttname"><a href="page-interface_8c.html#a789d15a02b1fa4806ccee315d2fb414b">page_ftl_open_interface</a></div><div class="ttdeci">static int page_ftl_open_interface(struct flash_device *flash, const char *name, int flags)</div><div class="ttdoc">open the page flash translation layer based device </div><div class="ttdef"><b>Definition:</b> page-interface.c:24</div></div>
 </div><!-- fragment -->
 <p>implementation of the <a class="el" href="structflash__operations.html" title="generic interface for communicate with the flash ">flash_operations</a> </p>
